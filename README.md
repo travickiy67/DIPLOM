@@ -175,6 +175,7 @@ Cоздайте ВМ, разверните на ней Elasticsearch. Устан
 
 *Карта балансировки*
 
+![img](https://github.com/travickiy67/DIPLOM/blob/main/img/map_balancer.png)
 
 </details>
 

@@ -47,6 +47,18 @@
 
 ![img](https://github.com/travickiy67/DIPLOM/blob/main/img/balanser.png)
 
+*Целевые группы*
+
+![img](https://github.com/travickiy67/DIPLOM/blob/main/img/ngx-target-group.png)
+
+*Группы бэкендов пут /*
+
+![img](https://github.com/travickiy67/DIPLOM/blob/main/img/nginx-backend-group.png)
+
+*Группы безопасности*
+
+![img](https://github.com/travickiy67/DIPLOM/blob/main/img/security%20groups.png)
+
 
 ### Сайт
 Создайте две ВМ в разных зонах, установите на них сервер nginx, если его там нет. ОС и содержимое ВМ должно быть идентичным, это будут наши веб-сервера.

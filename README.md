@@ -33,33 +33,6 @@
 
 Ознакомьтесь со всеми пунктами из этой секции, не беритесь сразу выполнять задание, не дочитав до конца. Пункты взаимосвязаны и могут влиять друг на друга.
 
----
-
-*Создаем инфраструктуру используя terraform*  
-
-![img](https://github.com/travickiy67/DIPLOM/blob/main/img/terraform.png)
- 
-*Создвно 6 машин*
-
-![img](https://github.com/travickiy67/DIPLOM/blob/main/img/virtual_machin.png)
-
-*Балансировщик*
-
-![img](https://github.com/travickiy67/DIPLOM/blob/main/img/balanser.png)
-
-*Целевые группы*
-
-![img](https://github.com/travickiy67/DIPLOM/blob/main/img/ngx-target-group.png)
-
-*Группы бэкендов пут /*
-
-![img](https://github.com/travickiy67/DIPLOM/blob/main/img/nginx-backend-group.png)
-
-*Группы безопасности*
-
-![img](https://github.com/travickiy67/DIPLOM/blob/main/img/security%20groups.png)
-
-
 ### Сайт
 Создайте две ВМ в разных зонах, установите на них сервер nginx, если его там нет. ОС и содержимое ВМ должно быть идентичным, это будут наши веб-сервера.
 
@@ -136,3 +109,43 @@ Cоздайте ВМ, разверните на ней Elasticsearch. Устан
 1. Вопросы вида «Ничего не работает. Не запускается. Всё сломалось». Дипломный руководитель не сможет ответить на такой вопрос без дополнительных уточнений. Цените своё время и время других.
 2. Откладывание выполнения дипломной работы на последний момент.
 3. Ожидание моментального ответа на свой вопрос. Дипломные руководители — работающие инженеры, которые занимаются, кроме преподавания, своими проектами. Их время ограничено, поэтому постарайтесь задавать правильные вопросы, чтобы получать быстрые ответы :)
+
+## Создано шесть машин. Доступ к машинам возможен  через бастион. Все програмное обеспечение устанавливается через бастион с использованием прокси команды. Ip адреса при при установке инфраструктуры не используются, используется hostname. Открыты только необходимые порты. Программы на машины установленны с помощью ansible (roles). установленно все что требовалось, дополнительно была попытка интегрировать в проект grafsna.
+  
+*Создаем инфраструктуру используя terraform*  
+
+![img](https://github.com/travickiy67/DIPLOM/blob/main/img/terraform.png)
+
+*Создвно 6 машин*
+
+![img](https://github.com/travickiy67/DIPLOM/blob/main/img/virtual_machin.png)
+
+*Балансировщик*
+
+![img](https://github.com/travickiy67/DIPLOM/blob/main/img/balanser.png)
+
+*Целевые группы*
+
+![img](https://github.com/travickiy67/DIPLOM/blob/main/img/ngx-target-group.png)
+
+*Группы бэкендов пут /*
+
+![img](https://github.com/travickiy67/DIPLOM/blob/main/img/nginx-backend-group.png)
+
+*Группы безопасности*
+
+![img](https://github.com/travickiy67/DIPLOM/blob/main/img/security%20groups.png)
+
+*Роутер*
+
+![img](https://github.com/travickiy67/DIPLOM/blob/main/img/router.png)
+
+*Расписание снимков дисков*
+
+![img](https://github.com/travickiy67/DIPLOM/blob/main/img/schedule.png)
+
+*Снимки дисков*
+
+![img](https://github.com/travickiy67/DIPLOM/blob/main/img/snapshot.png)
+
+

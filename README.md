@@ -35,10 +35,14 @@
 
 ---
 
-## Создаем инфраструктуру исполбзуя terraform
+*Создаем инфраструктуру используя terraform*  
 
 ![img](https://github.com/travickiy67/DIPLOM/blob/main/img/terraform.png)
  
+*Создвно 6 машин*
+
+![img](https://github.com/travickiy67/DIPLOM/blob/main/img/virtual_machin.png)
+
 ### Сайт
 Создайте две ВМ в разных зонах, установите на них сервер nginx, если его там нет. ОС и содержимое ВМ должно быть идентичным, это будут наши веб-сервера.
 
